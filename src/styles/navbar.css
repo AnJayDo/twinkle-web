@@ -1,0 +1,101 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/Discord.woff);
+    font-weight: 100;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/Discord300.woff);
+    font-weight: 300;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/Discord500.woff);
+    font-weight: 500;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/DiscordBold.woff);
+    font-weight: 700;
+}
+
+* {
+    font-family: myFirstFont;
+    font-weight: 500;
+}
+
+#navbar {
+    display: flex;
+    padding: 15px 50px;
+}
+
+#logo {
+    width: 50px;
+}
+
+#nav-list {
+    width: calc(100vw - 100px - 300px);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.logoHolder {
+    width: 150px;
+    display: flex;
+}
+
+.gradientText {
+  display: block;
+  margin: auto;
+  margin-left: 10px;
+  font-size: 35px;
+  font-weight: 700;
+  background: -webkit-linear-gradient(45deg, #F04393, #F9C449);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navhref {
+    width: 15%;
+    font-size: 20px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.navhref a {
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+}
+
+.navContent {
+    display: flex;
+}
+
+.navLogin {
+    padding: 8px 20px;
+    background: linear-gradient(45deg, #F04393, #F9C449);
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 18px;
+    display: block;
+    cursor: pointer;
+}
+
+.invertedWave, .wave {
+    width: 100%;
+}
+
+.wave {
+    margin-bottom: -20px;
+}
+
+.invertedWave {
+    -webkit-transform: matrix(1,0,0,-1,0,0);
+    transform: matrix(1,0,0,-1,0,0);
+}
+
+.wavePath-haxJK1 {
+    fill: #f9f9f9;
+}

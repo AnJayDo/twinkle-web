@@ -1,0 +1,36 @@
+#why {
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.whyContent {
+    width: 100%;
+    display: flex;
+    padding: 50px 0;
+}
+
+.halfWhyContent {
+    width: 50%;
+}
+
+.halfWhyContent img {
+    width: 80%;
+}
+
+.whyText {
+    margin: 100px;
+}
+
+.whyText h4 {
+    font-weight: 700;
+    font-size: 38px;
+    margin-top: -28px;
+    background: -webkit-linear-gradient( 45deg , #F04393, #628bf7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.whyText p {
+    font-size: 20px;
+    font-weight: 100;
+}

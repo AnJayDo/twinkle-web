@@ -1,0 +1,31 @@
+.coverContent {
+    height: 50vh;
+    max-width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center
+}
+
+.coverContent img {
+    width: 28vw;
+}
+
+.coverText {
+    width: 40vw;
+    margin-top: 100px;
+}
+
+.coverText * {
+    text-align: center;
+}
+
+.coverWords {
+    font-weight: 100;
+    font-size: 19px;
+    line-height: 39px;
+}
+
+.storeContainer img {
+    width: 180px;
+    margin: 0 4px;
+}

@@ -1,0 +1,54 @@
+#services {
+}
+
+.servicesContent {
+    display: block;
+    background-color: #f9f9f9;
+    margin: 0;
+    text-align: center;
+}
+
+.blinkImage img {
+    width: 70vw;
+}
+
+.serviceHeadtext {
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    margin-top: -28px;
+    background: -webkit-linear-gradient(-130deg, #f98857, #f8ba4e);;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.serviceContainer {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.serviceItem {
+    width: 215px;
+    margin: 10px 8px;
+    height: 280px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    -webkit-box-shadow: 0px 0px 20px -11px rgba(255,102,0,0.5);
+    -moz-box-shadow: 0px 0px 20px -11px rgba(255,102,0,0.5);
+    box-shadow: 0px 0px 20px -11px rgba(255,102,0,0.5);
+}
+
+.serviceItemInner {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(0deg, #f8a851 10%, #f8a8514f 30%, transparent 100%);
+    color: white;
+    font-size: 23px;
+    border-radius: 8px;
+    overflow-y: hidden;
+}

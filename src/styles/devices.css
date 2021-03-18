@@ -1,0 +1,53 @@
+#devices {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+}
+
+.downloadBaseOnDevice {
+    width: 100%;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.availableDevices h4 {
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+}
+
+.availableDevices p {
+    font-weight: 100;
+    font-size: 19px;
+    text-align: center;
+}
+
+.readyJourney {
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    margin-top: -28px;
+    background: -webkit-linear-gradient( 45deg , #F04393, #628bf7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.downloadButtonDevices {
+    text-decoration: none;
+    display: flex;
+    width: fit-content;
+    margin: -30px auto 0 auto;
+    background: linear-gradient(45deg, #9f6ccc 0%, #cc6cbc 10%, #f98358 40%, #f8bc4e);
+    padding: 8px 20px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    font-size: 23px;
+}
+
+.downloadButtonDevices svg {
+    fill: #ffffff;
+    margin-right: 5px;
+}

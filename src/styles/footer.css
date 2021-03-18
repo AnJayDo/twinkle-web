@@ -1,0 +1,79 @@
+#footer {
+    background-color: #ffffff;
+}
+
+.footerContent {
+    display: block;
+    width: calc(1360px);
+    margin: 50px auto 20px auto;
+}
+
+.footerContent .contentRow {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerContent .contentRow .contentColumn {
+    width: 20%;
+}
+
+.footerContent .columnHeadtext {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.footerContent .secondaryLink {
+    text-decoration: none;
+}
+
+.footerContent .secondaryLink p {
+    font-weight: 100;
+    font-size: 19px;
+    color: black;
+}
+
+.iconItem {
+    margin: auto;
+}
+
+.iconItem svg {
+    width: 30px;
+}
+
+
+.iconsContainer {
+    width: 80%;
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+}
+
+
+.footerLine {
+    width: 100%;
+    height: 2px;
+    background-color: #f9f9f9;
+}
+
+.companyContent {
+    width: 100%;
+    text-align: right;
+}
+
+.downloadButton {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: linear-gradient(45deg, #F04393, #F9C449);
+    padding: 8px 20px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.downloadButtonText {
+    padding: 0 10px;
+}
