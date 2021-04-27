@@ -16,7 +16,7 @@ export default class NavBar extends Component {
                     <li className="navhref"><a>Go with us</a></li>
                     <li className="navhref"><a>Support</a></li>
                 </ul>
-                <div><a className="navLogin">Login</a></div>
+                <div><a className="navLogin">Be Our Partner</a></div>
             </div>
         </nav>);
     }
