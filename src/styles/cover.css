@@ -29,3 +29,20 @@
     width: 180px;
     margin: 0 4px;
 }
+
+@media screen and (max-width: 900px) {
+    .coverContent {
+        flex-direction: column;
+        height: 100vh;
+    }
+    .coverContent>* {
+        width: 90vw;
+    }
+    .coverContent>img {
+        width: 60vw;
+        margin: 0 auto;
+    }
+    .coverContent>img:last-child {
+        display: none;
+    }
+}

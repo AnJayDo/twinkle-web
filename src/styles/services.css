@@ -52,3 +52,17 @@
     border-radius: 8px;
     overflow-y: hidden;
 }
+
+@media screen and (max-width: 900px)  {
+    .serviceContainer {
+        display: flex;
+        margin: auto;
+        justify-content: start;
+        max-width: 100%;
+        flex-wrap: nowrap;
+        overflow: scroll;
+    }
+    .serviceItem {
+        min-width: 220px;
+    }
+}

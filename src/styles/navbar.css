@@ -31,6 +31,9 @@
 
 #logo {
     width: 50px;
+    height: 50px;
+    display: block;
+    margin: auto;
 }
 
 #nav-list {
@@ -67,6 +70,7 @@
 .navhref a {
     text-decoration: none;
     color: rgb(44, 44, 44);
+    text-align: center;
 }
 
 .navContent {
@@ -78,10 +82,13 @@
     background: linear-gradient(45deg, #F04393, #F9C449);
     color: white;
     border-radius: 10px;
-    margin: 5px;
     font-size: 18px;
     display: block;
     cursor: pointer;
+    text-align: center;
+    min-width: 130px;    
+    display: block;
+    margin: 15px auto;
 }
 
 .invertedWave, .wave {
@@ -99,4 +106,27 @@
 
 .wavePath-haxJK1 {
     fill: #f9f9f9;
+}
+
+@media screen and (max-width: 900px)  {
+    #navbar {
+        display: flex;
+        justify-content: space-around;
+        padding: 15px 10px;
+    }
+    #nav-list {
+        display: none;
+    }
+    #logo {
+        width: 40px;
+        height: 40px;
+        display: block;
+        margin: auto;
+    }
+    .logoHolder>.gradientText {
+        font-size: 28px;
+    }
+    .navLogin {
+        padding: 8px 8px;
+    }
 }

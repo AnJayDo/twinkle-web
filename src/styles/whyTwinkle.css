@@ -34,3 +34,24 @@
     font-size: 20px;
     font-weight: 100;
 }
+
+@media screen and (max-width: 900px)  {
+    .whyContent {
+        padding: 0;
+        flex-direction: column-reverse;
+    }
+    .halfWhyContent {
+        width: 100%;
+    }
+    .whyText {
+        margin: 0px 46px;
+    }
+    .halfWhyContent>.whyText {
+        margin-top: 25px;
+    }
+    .whyText p {
+        font-size: 20px;
+        font-weight: 100;
+        margin-top: -45px;
+    }
+}

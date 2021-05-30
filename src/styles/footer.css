@@ -78,3 +78,29 @@
 .downloadButtonText {
     padding: 0 10px;
 }
+@media screen and (max-width: 900px)  {
+    .footerContent {
+        width: calc(100% - 25px);
+        padding-left: 25px;
+    }
+    .footerContent .contentRow {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footerContent .contentRow .contentColumn {
+        width: unset;
+        min-width: 340px;
+    }
+    .availableDevices>img {
+        width: 100%;
+        height: auto;
+    }
+    .downloadButton {
+        max-width: 200px;
+    }
+    .companyContent {
+        width: 90%;
+    }
+}
