@@ -47,6 +47,7 @@
 .logoHolder {
     width: 150px;
     display: flex;
+    text-decoration: none;
 }
 
 .gradientText {
@@ -78,6 +79,7 @@
 }
 
 .navLogin {
+    text-decoration: none;
     padding: 8px 20px;
     background: linear-gradient(45deg, #F04393, #F9C449);
     color: white;

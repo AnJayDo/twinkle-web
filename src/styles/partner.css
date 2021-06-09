@@ -1,0 +1,36 @@
+#partner {
+    display: flex;
+    justify-content: center;
+    min-height: 600px;
+}
+
+.signUpSVG {
+    max-width: 40%;
+}
+
+.signUpSVG img {
+    max-height: 500px;
+    margin: auto;
+    display: block;
+}
+
+.formSignUp label, input {
+    font-size: 16px;
+}
+
+.formSignUp input {
+    min-width: 300px;
+    padding: 5px;
+    margin-bottom: 14px;
+}
+
+@media screen and (max-width: 900px) {
+    #partner {
+        display: flex;
+        justify-content: center;
+        min-height: 400px;
+    }
+    .signUpSVG {
+        display: none;
+    }
+}
