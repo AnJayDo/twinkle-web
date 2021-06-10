@@ -27,9 +27,8 @@ export default class WhyTwinkle extends Component {
             <div className="halfWhyContent">
                 <div className="whyText">
                     <h4>Why Twinkle?</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    <br></br>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    <p>Twinkle will help busy people at work can easily choose the time to go to the salon according to their schedule. Easily to choose the salon, staff, and services for themselves.
+                    <br/>Twinkle will not only help you, but it can help many people like you save time for booking and avoid crowded waiting during this covid-19 epidemic.
                     </p>
                 </div>
             </div>
